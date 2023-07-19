@@ -20,6 +20,7 @@
     font-family: var(--fonte02);
 }
 
+
 header{
     background-color: var(--cor01);
     color: var(--cor02);
@@ -61,16 +62,40 @@ header nav{
 main section#inauguracao{
     border: solid red;
     height: 100vh;
-    background-image: url('../assets/Grupo 486.png');
+    background-image: url('../assets/Grupo 486@2.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: center; 
+}
+
+main section#inauguracao figure{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: solid red; */
+    position: relative;
+    bottom: -3vh;
+}
+
+main section#inauguracao h2{
+    color: white;
+    white-space: pre-line;
+    text-align: center;
+    font-size: 5em;
+    font-family: normal;
+}
+
+main section#inauguracao img{
+    width: 9vw;
 }
 
 main section#banho-tosa{
     border: solid blue;
     height: 100vh;
     background-image: url('../assets/Interseção 16.png');
+    background-color: var(--cor02);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -79,9 +104,9 @@ main section#banho-tosa{
 main section#mordomia-saudavel{
     border: solid green;
     height: 100vh;
-    background-image: url('../assets/Grupo480.png');
+    background-image: url('../assets/Grupo480@2.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
