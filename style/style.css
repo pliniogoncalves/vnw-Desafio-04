@@ -57,3 +57,40 @@ header nav{
     position: relative;
     right: 100px;
 }
+
+main section#inauguracao{
+    border: solid red;
+    height: 100vh;
+    background-image: url('../assets/Grupo 486.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main section#banho-tosa{
+    border: solid blue;
+    height: 100vh;
+    background-image: url('../assets/Interseção 16.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main section#mordomia-saudavel{
+    border: solid green;
+    height: 100vh;
+    background-image: url('../assets/Grupo480.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main section#apoio{
+    border: solid brown;
+    height: 35vh;
+    background-color: white;
+    color: var(--cor03);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
