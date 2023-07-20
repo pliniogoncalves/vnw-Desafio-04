@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap');
 
 :root{
     --fonte01: Arial, Helvetica, sans-serif;
-    --fonte02: 'Roboto', sans-serif;
+    --fonte02: 'Roboto Serif', serif;
     --fonte03: normal, normal, sans-serif;
 
     --cor01:#252525;
@@ -101,7 +101,7 @@ main section#inauguracao img:hover{
 }
 
 main section#banho-tosa{
-    border: solid blue;
+    /* border: solid blue; */
     height: 100vh;
     background-image: url('../assets/Interseção 16.png');
     background-color: var(--cor02);
@@ -149,7 +149,7 @@ main section#banho-tosa button:hover{
 }
 
 main section#mordomia-saudavel{
-    border: solid green;
+    /* border: solid green; */
     height: 100vh;
     background-image: url('../assets/Grupo480@2.png');
     background-repeat: no-repeat;
@@ -197,12 +197,27 @@ main section#mordomia-saudavel button:hover{
 }
 
 main section#apoio{
-    border: solid brown;
+    /* border: solid brown; */
     height: 35vh;
     background-color: white;
     color: var(--cor03);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+main section#apoio h2{
+    font-style: italic;
+    font-size: 3vw;
+    font-family: var(--fonte02);
+}
+
+main section#apoio img{
+   width: 14vw;
+}
+
+main section#apoio img:hover{
+    cursor: pointer;
+    transform: scale(115%);
 }
 
