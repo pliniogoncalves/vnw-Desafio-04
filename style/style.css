@@ -278,5 +278,24 @@ footer li:hover{
     header nav img#whatsapp{
         width: 8vw;
     }
+
+    main section#inauguracao{
+        height:88vh;
+        background-image: url('../assets/Grupo 485@2x.png');
+        background-size: 100% 100%;
+    }
+
+    main section#inauguracao figure{
+        position: relative;
+        bottom: 5vh;
+    }
+    
+    main section#inauguracao h2{
+        font-size: 4em;
+    }
+    
+    main section#inauguracao img{
+        width: 20vw;
+    }
 }
 
