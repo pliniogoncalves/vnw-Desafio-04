@@ -43,11 +43,10 @@ header figure{
 
 header figure img{
     width: 1.8959vw;
-    height: 3.556vh;
 }
 
 header figure h1{
-    font-size: 1.15em;
+    font-size: 1.15rem;
     font-weight: bold;
 }
 
@@ -69,10 +68,8 @@ header nav img:hover{
 main section#inauguracao{
     /* border: solid red; */
     height: 100vh;
-    background-image: url('../assets/Grupo 486@2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
+    background-image: url('../assets/Grupo 486@2x.png');
+    background-size: 100% 100%;
 }
 
 main section#inauguracao figure{
@@ -105,10 +102,8 @@ main section#inauguracao img:hover{
 main section#banho-tosa{
     /* border: solid blue; */
     height: 100vh;
-    background-image: url('../assets/Interseção 16@2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: url('../assets/Interseção 16@2x.png');
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,6 +123,7 @@ main section#banho-tosa p{
     white-space: pre-line;
     position: relative;
     left: 7vw;
+    font-family: var(--fonte04);
 }
 
 main section#banho-tosa button{
@@ -152,10 +148,8 @@ main section#banho-tosa button:hover{
 main section#mordomia-saudavel{
     /* border: solid green; */
     height: 100vh;
-    background-image: url('../assets/Grupo480@2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: url('../assets/Grupo 480@2x.png');
+    background-size: 100% 100%;
     white-space: pre-line;
     display: flex;
     flex-direction: column;
@@ -176,6 +170,7 @@ main section#mordomia-saudavel p{
     white-space: pre-line;
     position: relative;
     right: 19vw;
+    font-family: var(--fonte04);
 }
 
 main section#mordomia-saudavel button{
@@ -251,5 +246,37 @@ footer ul{
 footer li:hover{
     cursor: pointer;
     transform: scale(115%);
+}
+
+@media (max-width: 768px) {
+    header{
+        height: 12vh;
+    }
+
+    header figure{
+        /* border: solid red; */
+        width: 35vw;
+    }
+
+    header figure img{
+        width: 10vw;
+    }
+
+    header figure h1{
+        font-size: 2.15rem;
+        font-weight: bold;
+    }
+
+    header nav img#instagram{
+        display: none;
+    }
+
+    header nav img#youtube{
+        display: none;
+    }
+
+    header nav img#whatsapp{
+        width: 8vw;
+    }
 }
 
