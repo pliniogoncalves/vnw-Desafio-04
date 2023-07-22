@@ -34,7 +34,7 @@ header{
 header figure{
     /* border: solid red; */
     display: flex;
-    width: 8vw;
+    width: 13vw;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
@@ -42,17 +42,17 @@ header figure{
 }
 
 header figure img{
-    width: 1.8959vw;
+    width: 2.8959vw;
 }
 
 header figure h1{
-    font-size: 1.15rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 header nav{
     /* border: solid red; */
-    width: 10vw;
+    width: 20vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -208,8 +208,12 @@ main section#apoio h2{
     font-family: var(--fonte02);
 }
 
-main section#apoio img{
-   width: 16vw;
+main section#apoio figure{
+    /* border: solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
 }
 
 main section#apoio img:hover{
@@ -345,6 +349,19 @@ footer li:hover{
         font-size: 1.4em;
         right: 69vw;
         top: -35vh;
+    }
+
+    main section#apoio{
+        height: 20vh;
+        flex-direction: column;
+    }
+    
+    main section#apoio h2{
+        font-size: 3vw;
+    }
+    
+    main section#apoio img{
+       width: 22vw;
     }
     
 }
