@@ -161,7 +161,7 @@ main section#mordomia-saudavel h2{
     font-size: 5em;
     color: white;
     position: relative;
-    right: 27vw;;
+    right: 30vw;
 }
 
 main section#mordomia-saudavel p{
@@ -184,7 +184,7 @@ main section#mordomia-saudavel button{
     border-radius: 100px;
     position: relative;
     bottom: -5vh;
-    right: 30vw;
+    right: 34vw;
 }
 
 main section#mordomia-saudavel button:hover{
@@ -263,7 +263,7 @@ footer li:hover{
     }
 
     header figure h1{
-        font-size: 2.15rem;
+        font-size: 2.4rem;
         font-weight: bold;
     }
 
@@ -290,7 +290,7 @@ footer li:hover{
     }
     
     main section#inauguracao h2{
-        font-size: 4em;
+        font-size: 3.5rem;
     }
     
     main section#inauguracao img{
@@ -299,25 +299,53 @@ footer li:hover{
 
     main section#banho-tosa{
         background-image: url('../assets/Grupo 484@2x.png');
+        align-items: flex-start;
     }
     
     main section#banho-tosa h2{
-        font-size: 4em;
-        position: relative;
+        font-size: 3.5rem;
         top: -28vh;
     }
     
     main section#banho-tosa p{
-        font-size: 1.4em;
-        position: relative;
+        font-size: 1.4rem;
         top: -28vh;
     }
     
     main section#banho-tosa button{
-        font-size: 1.4em;
+        font-size: 1.4rem;
         padding: 20px 20px;  
-        position: relative;
         top: -26vh;
     }
+
+    main section#mordomia-saudavel{
+        background-image: url('../assets/Grupo 496@2x.png');
+    }
+    
+    main section#mordomia-saudavel h2{
+        font-size: 3.5rem;
+        right: 30vw;
+        top: -38vh;
+        visibility: hidden;
+    }
+
+    main section#mordomia-saudavel h2::after{
+        content: "Mordomia Saudável";
+        visibility: visible;
+    }
+    
+    main section#mordomia-saudavel p{
+        font-size: 1.4em;
+        right: 50vw;
+        top: -38vh;
+    }
+    
+    main section#mordomia-saudavel button{
+        padding: 20px 20px;
+        font-size: 1.4em;
+        right: 69vw;
+        top: -35vh;
+    }
+    
 }
 
