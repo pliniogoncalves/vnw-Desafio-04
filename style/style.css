@@ -87,7 +87,7 @@ main section#inauguracao h2{
     color: white;
     white-space: pre-line;
     text-align: center;
-    font-size: 5em;
+    font-size: 5rem;
 }
 
 main section#inauguracao img{
@@ -111,7 +111,7 @@ main section#banho-tosa{
 }
 
 main section#banho-tosa h2{
-    font-size: 5em;
+    font-size: 5rem;
     color: var(--cor01);
     position: relative;
     left: 7vw;;
@@ -119,7 +119,7 @@ main section#banho-tosa h2{
 
 main section#banho-tosa p{
     color: var(--cor01);
-    font-size: 2.4em;
+    font-size: 2.4rem;
     white-space: pre-line;
     position: relative;
     left: 7vw;
@@ -131,7 +131,7 @@ main section#banho-tosa button{
     color: var(--cor02);
     border: none;
     padding: 25px 25px;
-    font-size: 2.4em;
+    font-size: 2.4rem;
     font-weight: bold;
     cursor: pointer;
     border-radius: 100px;
@@ -158,7 +158,7 @@ main section#mordomia-saudavel{
 }
 
 main section#mordomia-saudavel h2{
-    font-size: 5em;
+    font-size: 5rem;
     color: white;
     position: relative;
     right: 30vw;
@@ -166,7 +166,7 @@ main section#mordomia-saudavel h2{
 
 main section#mordomia-saudavel p{
     color: white;
-    font-size: 2.4em;
+    font-size: 2.4rem;
     white-space: pre-line;
     position: relative;
     right: 19vw;
@@ -226,15 +226,10 @@ footer{
     height: 65vh;
     background-color: var(--cor03);
     color: white;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 2em;
-}
-
-footer section{
-    position: relative;
-    left: -3.5vw;
 }
 
 footer h2{
@@ -339,14 +334,14 @@ footer li:hover{
     }
     
     main section#mordomia-saudavel p{
-        font-size: 1.4em;
+        font-size: 1.4rem;
         right: 50vw;
         top: -38vh;
     }
     
     main section#mordomia-saudavel button{
         padding: 20px 20px;
-        font-size: 1.4em;
+        font-size: 1.4rem;
         right: 69vw;
         top: -35vh;
     }
@@ -364,5 +359,27 @@ footer li:hover{
        width: 22vw;
     }
     
+    footer{
+        /* border: solid blue; */
+        height: 80vh;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer nav{
+        /* border: solid blue; */
+        position: relative;
+        top: 8%;
+    }
+
+
+    footer h2{
+        font-size: 1.8rem;
+    }
+
+    footer li{
+        padding: 3px;
+        font-size: 1.2rem;
+    }
 }
 
