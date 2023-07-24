@@ -28,13 +28,13 @@ header{
     color: var(--cor02);
     display: flex;
     justify-content: space-between;
-    height: 9vh;
+    height: 15vh;
 }
 
 header figure{
     /* border: solid red; */
     display: flex;
-    width: 13vw;
+    width: 17vw;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
@@ -42,7 +42,12 @@ header figure{
 }
 
 header figure img{
-    width: 2.8959vw;
+    width: 3.8959vw;
+}
+
+header figure img:hover{
+    cursor: pointer;
+    transform: scale(115%);
 }
 
 header figure h1{
@@ -74,7 +79,7 @@ main section#inauguracao{
 
 main section#inauguracao figure{
     display: flex;
-    height: 50vh;
+    height: 40vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -161,7 +166,8 @@ main section#mordomia-saudavel h2{
     font-size: 5rem;
     color: white;
     position: relative;
-    right: 30vw;
+    right: 25vw;
+    top: -8vh;
 }
 
 main section#mordomia-saudavel p{
@@ -169,7 +175,8 @@ main section#mordomia-saudavel p{
     font-size: 2.4rem;
     white-space: pre-line;
     position: relative;
-    right: 19vw;
+    right: 10.5vw;
+    top: -8vh;
     font-family: var(--fonte04);
 }
 
@@ -183,8 +190,8 @@ main section#mordomia-saudavel button{
     cursor: pointer;
     border-radius: 100px;
     position: relative;
-    bottom: -5vh;
-    right: 34vw;
+    bottom: 5vh;
+    right: 30vw;
 }
 
 main section#mordomia-saudavel button:hover{
@@ -213,7 +220,7 @@ main section#apoio figure{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50vw;
+    width: 55vw;
 }
 
 main section#apoio img:hover{
@@ -223,13 +230,84 @@ main section#apoio img:hover{
 
 footer{
     /* border: solid blue; */
-    height: 65vh;
+    height: 80vh;
     background-color: var(--cor03);
     color: white;
     font-size: 2rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+footer section nav{
+    display: flex;
+    align-items: center;
+}
+
+footer section#logo{
+    /* border: solid blue; */
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: -10vh;
+}
+
+footer section#logo figure{
+    /* border: solid blue; */
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer section#logo figure img{
+    width: 6vw;
+}
+
+footer section#logo nav{
+    /* border: solid blue; */
+    width: 28vw;
+    justify-content: space-evenly;
+}
+
+footer section#logo nav img:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+
+footer section#menu{
+    /* border: solid blue; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -20vh;
+}
+
+footer nav#atendimento{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer nav#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer nav#unidades{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 footer h2{
@@ -254,15 +332,15 @@ footer li:hover{
 
     header figure{
         /* border: solid red; */
-        width: 35vw;
+        width: 30vw;
     }
 
     header figure img{
-        width: 10vw;
+        width: 6vw;
     }
 
     header figure h1{
-        font-size: 2.4rem;
+        font-size: 2rem;
         font-weight: bold;
     }
 
@@ -275,7 +353,7 @@ footer li:hover{
     }
 
     header nav img#whatsapp{
-        width: 8vw;
+        width: 6vw;
     }
 
     main section#inauguracao{
@@ -285,15 +363,15 @@ footer li:hover{
 
     main section#inauguracao figure{
         position: relative;
-        bottom: 5vh;
+        bottom: 1vh;
     }
     
     main section#inauguracao h2{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     
     main section#inauguracao img{
-        width: 20vw;
+        width: 15vw;
     }
 
     main section#banho-tosa{
@@ -302,18 +380,18 @@ footer li:hover{
     }
     
     main section#banho-tosa h2{
-        font-size: 3.5rem;
-        top: -28vh;
+        font-size: 3rem;
+        top: -25vh;
     }
     
     main section#banho-tosa p{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         top: -28vh;
     }
     
     main section#banho-tosa button{
-        font-size: 1.4rem;
-        padding: 20px 20px;  
+        font-size: 1.2rem;
+        padding: 18px 18px;  
         top: -26vh;
     }
 
@@ -322,8 +400,8 @@ footer li:hover{
     }
     
     main section#mordomia-saudavel h2{
-        font-size: 3.5rem;
-        right: 30vw;
+        font-size: 3rem;
+        right: 38.5vw;
         top: -38vh;
         visibility: hidden;
     }
@@ -334,16 +412,16 @@ footer li:hover{
     }
     
     main section#mordomia-saudavel p{
-        font-size: 1.4rem;
-        right: 50vw;
-        top: -38vh;
+        font-size: 1.2rem;
+        right: 56vw;
+        top: -42vh;
     }
     
     main section#mordomia-saudavel button{
-        padding: 20px 20px;
-        font-size: 1.4rem;
-        right: 69vw;
-        top: -35vh;
+        padding: 18px 18px;
+        font-size: 1.2rem;
+        right: 72vw;
+        top: -40vh;
     }
 
     main section#apoio{
@@ -361,25 +439,62 @@ footer li:hover{
     
     footer{
         /* border: solid blue; */
-        height: 80vh;
-        flex-direction: column;
-        text-align: center;
+        height: 100%;
     }
-
-    footer nav{
+    
+    footer section#logo{
         /* border: solid blue; */
+        visibility: visible;
+        height: 30vh;
         position: relative;
-        top: 8%;
+        top: 2vh;
+    }
+    
+    footer section#logo figure{
+        /* border: solid blue;  */
+        width: 31vw;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    
+    footer section#logo figure img{
+        width: 6vw;
     }
 
-
-    footer h2{
-        font-size: 1.8rem;
+    footer section#logo nav img{
+        width: 6vw;
+    }
+    
+    footer section#menu{
+        /* border: solid blue; */
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+        top: 0vh;
     }
 
-    footer li{
-        padding: 3px;
+    footer section#menu nav{
+        /* border: solid red; */
+        width: 40vw;
+        text-align: center;
+        align-items: center;
+    }
+    
+    footer nav#atendimento{
         font-size: 1.2rem;
     }
+    
+    footer nav#sobre{
+        font-size: 1.2rem;
+    }
+    
+    footer nav#unidades{
+        font-size: 1.2rem;
+    }
+
+    footer nav h2{
+        padding: 2px;
+    }   
 }
 
