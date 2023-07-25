@@ -175,7 +175,7 @@ main section#mordomia-saudavel p{
     font-size: 2.4rem;
     white-space: pre-line;
     position: relative;
-    right: 10.5vw;
+    right: 14vw;
     top: -8vh;
     font-family: var(--fonte04);
 }
@@ -190,8 +190,8 @@ main section#mordomia-saudavel button{
     cursor: pointer;
     border-radius: 100px;
     position: relative;
-    bottom: 5vh;
-    right: 30vw;
+    bottom: 5.5vh;
+    right: 28vw;
 }
 
 main section#mordomia-saudavel button:hover{
@@ -332,7 +332,10 @@ footer li:hover{
 
 @media (max-width: 768px) {
     header{
-        height: 12vh;
+        height: 8vh;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
     }
 
     header figure{
@@ -386,7 +389,7 @@ footer li:hover{
     
     main section#banho-tosa h2{
         font-size: 3rem;
-        top: -25vh;
+        top: -26vh;
     }
     
     main section#banho-tosa p{
@@ -406,8 +409,8 @@ footer li:hover{
     
     main section#mordomia-saudavel h2{
         font-size: 3rem;
-        right: 29.5vw;
-        top: -38vh;
+        right: 32.5vw;
+        top: -40vh;
         visibility: hidden;
     }
 
@@ -418,7 +421,7 @@ footer li:hover{
     
     main section#mordomia-saudavel p{
         font-size: 1.2rem;
-        right: 49vw;
+        right: 50vw;
         top: -42vh;
     }
     
@@ -473,7 +476,6 @@ footer li:hover{
     footer section#menu{
         /* border: solid blue; */
         flex-direction: column;
-        align-items: center;
         height: 100vh;
         position: relative;
         top: 0vh;
