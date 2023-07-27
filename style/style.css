@@ -241,8 +241,11 @@ footer{
 }
 
 footer section nav{
+    /* border: solid blue; */
+    width: 80vw;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 footer section#logo{
@@ -292,27 +295,8 @@ footer section#menu{
     height: 70vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     position: relative;
     top: -20vh;
-}
-
-footer nav#atendimento{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-footer nav#sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-footer nav#unidades{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 footer h2{
@@ -483,25 +467,17 @@ footer li:hover{
 
     footer section#menu nav{
         /* border: solid red; */
-        width: 40vw;
+        height: 80vh;
+        flex-direction: column;
         text-align: center;
-        align-items: center;
     }
     
-    footer nav#atendimento{
-        font-size: 1.2rem;
-    }
-    
-    footer nav#sobre{
-        font-size: 1.2rem;
-    }
-    
-    footer nav#unidades{
+    footer section#menu ul{
         font-size: 1.2rem;
     }
 
-    footer nav h2{
-        padding: 2px;
+    footer ul h2{
+        padding: 3px;
     }   
 }
 
